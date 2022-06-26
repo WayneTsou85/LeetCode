@@ -4,7 +4,7 @@
 2. 提交完答案後需要完成對應的筆記
 
 ## MOC
-1. [Easy 難度紀錄](easy.md)
+1. [Easy 難度紀錄](record/easy.md)
 
 ## Project Record
 

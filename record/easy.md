@@ -27,4 +27,4 @@ Constraints:
 1 <= nums.length <= 1000
 -10^6 <= nums[i] <= 10^6
 ```
-[File](/src/main/java/easy/RunningSumOfArray.java)
+[File](/easy/RunningSumOfArray.java)
