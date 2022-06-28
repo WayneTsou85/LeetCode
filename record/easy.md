@@ -1,5 +1,5 @@
 # Easy
-## 1480. Running Sum Of 1D Array
+## 1480. Running Sum Of 1D Array ([File](../src/main/java/easy/RunningSumOfArray.java))
 #Array #PrefixSum
 ### 需求
 Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
@@ -28,11 +28,10 @@ Constraints:
 1 <= nums.length <= 1000
 -10^6 <= nums[i] <= 10^6
 ```
-[File](../src/main/java/easy/RunningSumOfArray.java)
 
 ---
 
-## 724. Find Pivot Index
+## 724. Find Pivot Index ([File](../src/main/java/easy/PivotIndex.java))
 #Array #PrefixSum
 ### 需求
 Given an array of integers nums, calculate the pivot index of this array.
@@ -71,4 +70,37 @@ Constraints:
 1 <= nums.length <= 104
 -1000 <= nums[i] <= 1000
  ```
-[File](../src/main/java/easy/PivotIndex.java)
+
+---
+
+## 205. Isomorphic Strings ([File](../src/main/java/easy/IsomorphicStrings.java))
+#HashTable #String
+
+Given two strings s and t, determine if they are isomorphic.
+Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+
+Example 1:
+```
+Input: s = "egg", t = "add"
+Output: true
+```
+
+Example 2:
+```
+Input: s = "foo", t = "bar"
+Output: false
+```
+
+Example 3:
+```
+Input: s = "paper", t = "title"
+Output: true
+```
+
+Constraints:
+```
+1 <= s.length <= 5 * 104
+t.length == s.length
+s and t consist of any valid ascii character.
+```
