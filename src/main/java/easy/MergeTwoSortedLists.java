@@ -3,18 +3,16 @@
  * description:
  *
  *  * Definition for singly-linked list.
- *  * public class ListNode {
+ *  * public class easy.ListNode {
  *  *     int val;
- *  *     ListNode next;
- *  *     ListNode() {}
- *  *     ListNode(int val) { this.val = val; }
- *  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *  *     easy.ListNode next;
+ *  *     easy.ListNode() {}
+ *  *     easy.ListNode(int val) { this.val = val; }
+ *  *     easy.ListNode(int val, easy.ListNode next) { this.val = val; this.next = next; }
  *  * }
  *
  */
 package easy;
-
-import java.util.Objects;
 
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
@@ -26,35 +24,6 @@ public class MergeTwoSortedLists {
         } else {
             list2.next = mergeTwoLists(list1, list2.next);
             return list2;
-        }
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-
-        @Override
-        public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            ListNode listNode = (ListNode) o;
-            return val == listNode.val && Objects.equals(next, listNode.next);
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(val, next);
         }
     }
 }
