@@ -1,6 +1,6 @@
 # Easy
 ## 1480. Running Sum Of 1D Array ([File](../src/main/java/easy/RunningSumOfArray.java))
-#Array #PrefixSum
+`#Array` `#PrefixSum`
 ### 需求
 Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 Return the running sum of nums.
@@ -32,7 +32,7 @@ Constraints:
 ---
 
 ## 724. Find Pivot Index ([File](../src/main/java/easy/PivotIndex.java))
-#Array #PrefixSum
+`#Array` `#PrefixSum`
 ### 需求
 Given an array of integers nums, calculate the pivot index of this array.
 The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
@@ -74,12 +74,15 @@ Constraints:
 ---
 
 ## 205. Isomorphic Strings ([File](../src/main/java/easy/IsomorphicStrings.java))
-#HashTable #String
 
+`#HashTable` `#String`
+
+### 需求
 Given two strings s and t, determine if they are isomorphic.
 Two strings s and t are isomorphic if the characters in s can be replaced to get t.
 All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
 
+### 範例
 Example 1:
 ```
 Input: s = "egg", t = "add"
@@ -98,6 +101,7 @@ Input: s = "paper", t = "title"
 Output: true
 ```
 
+### 限制
 Constraints:
 ```
 1 <= s.length <= 5 * 104
@@ -107,11 +111,14 @@ s and t consist of any valid ascii character.
 
 ---
 ## 392. Is Subsequence [File](../src/main/java/easy/IsSubsequence.java)
-#TwoPointer #String
 
+`#TwoPointer` `#String`
+
+### 需求
 Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
 A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
 
+### 範例
 Example 1:
 ```
 Input: s = "abc", t = "ahbgdc"
@@ -123,6 +130,7 @@ Input: s = "axc", t = "ahbgdc"
 Output: false
 ```
 
+### 限制
 Constraints:
 ```
 0 <= s.length <= 100
@@ -135,10 +143,14 @@ Follow up: Suppose there are lots of incoming s, say s1, s2, ..., sk where k >= 
 ---
 ## 21.Merge Two Sorted Lists [File](../src/main/java/easy/MergeTwoSortedLists.java)
 
+`#LinkedList` `#Recursion`
+
+### 需求
 You are given the heads of two sorted linked lists list1 and list2.
 Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
 Return the head of the merged linked list.
 
+### 範例
 Example 1:
 ```
 Input: list1 = [1,2,4], list2 = [1,3,4]
@@ -154,8 +166,39 @@ Example 3:
 Input: list1 = [], list2 = [0]
 Output: [0]
 ```
+
+### 限制
 Constraints:
 
 The number of nodes in both lists is in the range [0, 50].
 -100 <= Node.val <= 100
 Both list1 and list2 are sorted in non-decreasing order.
+
+---
+## 206. Reverse Linked List  [File](../src/main/java/easy/ReverseLinkedList.java)
+
+`#LinkedList #Recursion`
+
+### 需求
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+### 範例
+Example 1:
+```
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+```
+Example 2:
+```
+Input: head = [1,2]
+Output: [2,1]
+```
+Example 3:
+```
+Input: head = []
+Output: []
+```
+
+### 限制
+The number of nodes in the list is the range [0, 5000].
+-5000 <= Node.val <= 5000

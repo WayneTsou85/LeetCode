@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static utils.ListNodeUtil.createSampleNode;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class MergeTwoSortedListsTest {
@@ -48,23 +49,23 @@ class MergeTwoSortedListsTest {
         assertEquals(createSampleNode(0), mergeTwoLists);
     }
 
-    private ListNode createSampleNode(int... vals) {
-        ListNode rootNode = null;
-        ListNode currentNode = null;
-        for (int val : vals) {
-            if (rootNode == null) {
-                rootNode = new ListNode(val);
-            } else {
-                if (currentNode == null)  {
-                    currentNode = new ListNode(val);
-                    rootNode.next = currentNode;
-                } else {
-                    currentNode.next = new ListNode(val);
-                    currentNode = currentNode.next;
-                }
-
-            }
-        }
-        return rootNode;
-    }
+//    private ListNode createSampleNode(int... vals) {
+//        ListNode rootNode = null;
+//        ListNode currentNode = null;
+//        for (int val : vals) {
+//            if (rootNode == null) {
+//                rootNode = new ListNode(val);
+//            } else {
+//                if (currentNode == null)  {
+//                    currentNode = new ListNode(val);
+//                    rootNode.next = currentNode;
+//                } else {
+//                    currentNode.next = new ListNode(val);
+//                    currentNode = currentNode.next;
+//                }
+//
+//            }
+//        }
+//        return rootNode;
+//    }
 }

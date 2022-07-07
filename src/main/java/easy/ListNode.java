@@ -9,8 +9,8 @@ public class ListNode {
     public int val;
     public ListNode next;
     ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, MergeTwoSortedLists.ListNode next) { this.val = val; this.next = next; }
+    public ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 
     @Override
     public String toString() {
@@ -24,7 +24,7 @@ public class ListNode {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        MergeTwoSortedLists.ListNode listNode = (MergeTwoSortedLists.ListNode) o;
+        ListNode listNode = (ListNode) o;
         return val == listNode.val && Objects.equals(next, listNode.next);
     }
 
