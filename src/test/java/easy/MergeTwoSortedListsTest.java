@@ -48,24 +48,4 @@ class MergeTwoSortedListsTest {
         // then
         assertEquals(createSampleNode(0), mergeTwoLists);
     }
-
-//    private ListNode createSampleNode(int... vals) {
-//        ListNode rootNode = null;
-//        ListNode currentNode = null;
-//        for (int val : vals) {
-//            if (rootNode == null) {
-//                rootNode = new ListNode(val);
-//            } else {
-//                if (currentNode == null)  {
-//                    currentNode = new ListNode(val);
-//                    rootNode.next = currentNode;
-//                } else {
-//                    currentNode.next = new ListNode(val);
-//                    currentNode = currentNode.next;
-//                }
-//
-//            }
-//        }
-//        return rootNode;
-//    }
 }
