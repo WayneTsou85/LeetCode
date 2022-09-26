@@ -16,6 +16,7 @@
 - [724] Find Pivot Index
 - [876] Middle of the Linked List
 - [1480] Running Sum Of 1D Array
+- [1920] Build Array from Permutation  # TODO
 
 ### Medium
 - [142] Linked List Cycle II
