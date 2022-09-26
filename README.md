@@ -5,8 +5,17 @@
 
 ## MOC
 1. [Easy 難度紀錄](record/easy.md)
+2. [Medium 難度紀錄](record/medium.md)
 
 ## Project Record
+### Easy
+- [21] Merge Two Sorted Lists
+- [205] Isomorphic Strings
+- [206] Reverse Linked List
+- [392] Is Subsequence
+- [724] Find Pivot Index
+- [876] Middle of the Linked List
+- [1480] Running Sum Of 1D Array
 
-2022/06/24
--  初始化Project，目前不確定要如何進行檔案切分，所以先以難度做分類 
+### Medium
+- [142] Linked List Cycle II
