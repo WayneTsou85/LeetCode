@@ -1,8 +1,6 @@
-/**
- * date       : 2022/7/19 上午 09:14
- * description:
- */
 package easy;
+
+import common.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

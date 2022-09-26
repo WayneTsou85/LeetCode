@@ -4,7 +4,7 @@
  */
 package medium;
 
-import easy.ListNode;
+import common.ListNode;
 
 public class LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {

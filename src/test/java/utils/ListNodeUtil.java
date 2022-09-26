@@ -4,7 +4,7 @@
  */
 package utils;
 
-import easy.ListNode;
+import common.ListNode;
 
 public class ListNodeUtil {
 

@@ -1,8 +1,6 @@
-/**
- * date       : 2022/6/30 上午 10:46
- * description:
- */
 package easy;
+
+import common.ListNode;
 
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {

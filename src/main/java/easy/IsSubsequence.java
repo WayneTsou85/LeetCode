@@ -1,7 +1,3 @@
-/**
- * date       : 2022/6/28 下午 01:25
- * description:
- */
 package easy;
 
 public class IsSubsequence {

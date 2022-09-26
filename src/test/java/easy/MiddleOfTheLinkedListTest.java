@@ -1,9 +1,10 @@
 package easy;
 
+import common.ListNode;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static utils.ListNodeUtil.createSampleNode;
 
 class MiddleOfTheLinkedListTest {

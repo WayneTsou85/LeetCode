@@ -1,7 +1,3 @@
-/**
- * date       : 2022/6/28 上午 09:29
- * description:
- */
 package easy;
 
 import java.util.HashMap;

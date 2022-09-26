@@ -1,7 +1,3 @@
-/**
- * date       : 2022/6/27 上午 11:21
- * description: 724. Find Pivot Index
- */
 package easy;
 
 import java.util.stream.IntStream;

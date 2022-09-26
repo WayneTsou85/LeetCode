@@ -1,6 +1,7 @@
 package easy;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -9,6 +10,7 @@ class RunningSumOfArrayTest {
     RunningSumOfArray solution = new RunningSumOfArray();
 
     @Test
+    @ParameterizedTest
     public void givenSample1_whenRunningSum_thenAssertExpect() {
         // given
         int[] nums = new int[]{1,2,3,4};

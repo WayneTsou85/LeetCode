@@ -1,7 +1,3 @@
-/**
- * date       : 2022/6/24 下午 05:54
- * description: 1480. Running Sum Of 1D Array
- */
 package easy;
 
 public class RunningSumOfArray {

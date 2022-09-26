@@ -1,10 +1,11 @@
-package easy; /**
- * date       : 2022/6/30 上午 10:50
- * description:
- */
+package common;
 
 import java.util.Objects;
 
+/**
+ * date       : 2022/6/30 上午 10:50
+ * description: 共用的元素
+ */
 public class ListNode {
     public int val;
     public ListNode next;
@@ -14,7 +15,7 @@ public class ListNode {
 
     @Override
     public String toString() {
-        return "easy.ListNode{" +
+        return "common.ListNode{" +
                 "val=" + val +
                 ", next=" + next +
                 '}';
