@@ -27,4 +27,25 @@ public class ListNodeUtil {
         }
         return rootNode;
     }
+
+    public static ListNode cycleListNode(ListNode head, int pos) {
+        if (-1 == pos) {
+            return head;
+        }
+        ListNode currentNode = head;
+        ListNode detectNode = null;
+        int counter = 0;
+        while (true) {
+            if (counter == pos) {
+                detectNode = currentNode;
+            }
+            counter++;
+            if (currentNode.next == null) {
+                currentNode.next = detectNode;
+                break;
+            }
+            currentNode = currentNode.next;
+        }
+        return head;
+    }
 }
