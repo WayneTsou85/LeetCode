@@ -10,6 +10,7 @@
 ## Project Record
 ### Easy
 - [21] Merge Two Sorted Lists
+- [88] Merge Sorted Array
 - [205] Isomorphic Strings
 - [206] Reverse Linked List
 - [392] Is Subsequence
