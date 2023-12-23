@@ -5,6 +5,7 @@
 
 ## Project Record
 ### Easy
+- [[20] Valid Parentheses](./src/main/java/easy/ValidParentheses.java)
 - [[21] Merge Two Sorted Lists](./src/main/java/easy/MergeTwoSortedLists.java)
 - [[88] Merge Sorted Array](./src/main/java/easy/MergeSortedArray.java)
 - [[205] Isomorphic Strings](./src/main/java/easy/IsomorphicStrings.java)
