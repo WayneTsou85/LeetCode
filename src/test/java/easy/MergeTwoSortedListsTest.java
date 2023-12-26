@@ -16,7 +16,7 @@ class MergeTwoSortedListsTest {
 
     @Order(1)
     @Test
-    public void givenSample1_whenMergeTwoLists_thenAssertExpect() {
+    void givenSample1_whenMergeTwoLists_thenAssertExpect() {
         // given
         ListNode list1 = createSampleNode(1, 2, 4);
         ListNode list2 = createSampleNode(1, 3, 4);
@@ -29,7 +29,7 @@ class MergeTwoSortedListsTest {
 
     @Order(2)
     @Test
-    public void givenSample2_whenMergeTwoLists_thenAssertExpect() {
+    void givenSample2_whenMergeTwoLists_thenAssertExpect() {
         // given
         ListNode list1 = null;
         ListNode list2 = null;
@@ -41,7 +41,7 @@ class MergeTwoSortedListsTest {
 
     @Order(3)
     @Test
-    public void givenSample3_whenMergeTwoLists_thenAssertExpect() {
+    void givenSample3_whenMergeTwoLists_thenAssertExpect() {
         // given
         ListNode list2 = createSampleNode(0);
         // when

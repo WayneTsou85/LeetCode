@@ -12,7 +12,7 @@ class MiddleOfTheLinkedListTest {
 
     @Order(1)
     @Test
-    public void givenSample1_whenFindMiddleNode_thenAssertExpect() {
+    void givenSample1_whenFindMiddleNode_thenAssertExpect() {
         // given
         ListNode node = createSampleNode(1,2,3,4,5);
         // when
@@ -23,7 +23,7 @@ class MiddleOfTheLinkedListTest {
 
     @Order(2)
     @Test
-    public void givenSample2_whenFindMiddleNode_thenAssertExpect() {
+    void givenSample2_whenFindMiddleNode_thenAssertExpect() {
         // given
         ListNode node = createSampleNode(1,2,3,4,5,6);
         // when

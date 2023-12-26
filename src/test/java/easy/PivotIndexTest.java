@@ -8,7 +8,7 @@ class PivotIndexTest {
     PivotIndex solution = new PivotIndex();
 
     @Test
-    public void givenSample1_whenPivotIndex_thenAssertExpect() {
+    void givenSample1_whenPivotIndex_thenAssertExpect() {
         // given
         int[] given = new int[]{1,7,3,6,5,6};
         // when
@@ -18,7 +18,7 @@ class PivotIndexTest {
     }
 
     @Test
-    public void givenSample2_whenPivotIndex_thenAssertExpect() {
+    void givenSample2_whenPivotIndex_thenAssertExpect() {
         // given
         int[] given = new int[]{1,2,3};
         // when
@@ -28,7 +28,7 @@ class PivotIndexTest {
     }
 
     @Test
-    public void givenSample3_whenPivotIndex_thenAssertExpect() {
+    void givenSample3_whenPivotIndex_thenAssertExpect() {
         // given
         int[] given = new int[]{2,1,-1};
         // when
