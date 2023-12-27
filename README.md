@@ -14,6 +14,7 @@
 - [[392] Is Subsequence](./src/main/java/easy/IsSubsequence.java)
 - [[724] Find Pivot Index](./src/main/java/easy/PivotIndex.java)
 - [[876] Middle of the Linked List](./src/main/java/easy/MiddleOfTheLinkedList.java)
+- [[1071] Greatest Common Divisor of Strings](./src/main/java/easy/GreatestCommonDivisorOfStrings.java)
 - [[1480] Running Sum Of 1D Array](./src/main/java/easy/RunningSumOfArray.java)
 - [[1768] Merge Strings Alternately](./src/main/java/easy/MergeStringsAlternately.java)
 - [1920] Build Array from Permutation  # TODO
