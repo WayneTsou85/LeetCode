@@ -11,6 +11,7 @@
 - [[205] Isomorphic Strings](./src/main/java/easy/IsomorphicStrings.java)
 - [[206] Reverse Linked List](./src/main/java/easy/ReverseLinkedList.java)
 - [[228] Summary Ranges](./src/main/java/easy/SummaryRanges.java)
+- [[283] Move Zeroes](./src/main/java/easy/MoveZeroes.java)
 - [[345] Reverse Vowels of a String](./src/main/java/easy/ReverseVowelsOfAString.java)
 - [[392] Is Subsequence](./src/main/java/easy/IsSubsequence.java)
 - [[605]Can Place Flowers](./src/main/java/easy/CanPlaceFlowers.java)
