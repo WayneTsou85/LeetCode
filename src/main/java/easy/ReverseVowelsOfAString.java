@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReverseVowelsOfAString {
-
-    public static void main(String[] args) {
-        int a = 'A';
-        int aa = 'a';
-        System.out.println(a);
-        System.out.println(aa);
-    }
     public String reverseVowels(String s) {
         List<String> tempArray = new ArrayList<>();
         char[] charArray = s.toCharArray();
