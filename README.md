@@ -15,7 +15,7 @@
 - [[345] Reverse Vowels of a String](./src/main/java/easy/ReverseVowelsOfAString.java)
 - [[392] Is Subsequence](./src/main/java/easy/IsSubsequence.java)
 - [[605] Can Place Flowers](./src/main/java/easy/CanPlaceFlowers.java)
-- [[643] Maximum Average Subarray I]()
+- [[643] Maximum Average Subarray I](./src/main/java/easy/MaximumAverageSubarrayI.java)
 - [[724] Find Pivot Index](./src/main/java/easy/PivotIndex.java)
 - [[876] Middle of the Linked List](./src/main/java/easy/MiddleOfTheLinkedList.java)
 - [[1071] Greatest Common Divisor of Strings](./src/main/java/easy/GreatestCommonDivisorOfStrings.java)
