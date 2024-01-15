@@ -21,7 +21,7 @@
 - [[1071] Greatest Common Divisor of Strings](./src/main/java/easy/GreatestCommonDivisorOfStrings.java)
 - [[1431] Kids With The Greatest Number Of Candies](./src/main/java/easy/KidsWithTheGreatestNumberOfCandies.java)
 - [[1480] Running Sum Of 1D Array](./src/main/java/easy/RunningSumOfArray.java)
-- - [[1732] Find the Highest Altitude](./src/main/java/easy/FindTheHighestAltitude.java)
+- [[1732] Find the Highest Altitude](./src/main/java/easy/FindTheHighestAltitude.java)
 - [[1768] Merge Strings Alternately](./src/main/java/easy/MergeStringsAlternately.java)
 - [1920] Build Array from Permutation  # TODO
 
