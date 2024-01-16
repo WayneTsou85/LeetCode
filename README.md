@@ -24,6 +24,8 @@
 - [[1732] Find the Highest Altitude](./src/main/java/easy/FindTheHighestAltitude.java)
 - [[1768] Merge Strings Alternately](./src/main/java/easy/MergeStringsAlternately.java)
 - [1920] Build Array from Permutation  # TODO
+- [[2215] Find the Difference of Two Arrays](./src/main/java/easy/FindTheDifferenceOfTwoArrays.java)
+
 
 ### Medium
 - [[142] Linked List Cycle II](./src/main/java/medium/LinkedListCycleII.java)
