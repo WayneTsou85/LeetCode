@@ -19,6 +19,7 @@
 - [[724] Find Pivot Index](./src/main/java/easy/PivotIndex.java)
 - [[876] Middle of the Linked List](./src/main/java/easy/MiddleOfTheLinkedList.java)
 - [[1071] Greatest Common Divisor of Strings](./src/main/java/easy/GreatestCommonDivisorOfStrings.java)
+- [[1207] Unique Number of Occurrences](./src/main/java/easy/UniqueNumberOfOccurrences.java)
 - [[1431] Kids With The Greatest Number Of Candies](./src/main/java/easy/KidsWithTheGreatestNumberOfCandies.java)
 - [[1480] Running Sum Of 1D Array](./src/main/java/easy/RunningSumOfArray.java)
 - [[1732] Find the Highest Altitude](./src/main/java/easy/FindTheHighestAltitude.java)
