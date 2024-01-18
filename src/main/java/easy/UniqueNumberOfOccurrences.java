@@ -1,16 +1,18 @@
 package easy;
 
-import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class UniqueNumberOfOccurrences {
 
     public boolean uniqueOccurrences(int[] arr) {
-        Map<Integer, Long> result = Arrays.stream(arr)
-                .boxed()
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-        return result.keySet().size() == new HashSet<>(result.values()).size();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i : arr) {
+            int current = map.getOrDefault(i, 0);
+            current = current + 1;
+            map.put(i, current);
+        }
+        return map.keySet().size() == new HashSet<>(map.values()).size();
     }
 
 }
