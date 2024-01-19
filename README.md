@@ -18,6 +18,7 @@
 - [[643] Maximum Average Subarray I](./src/main/java/easy/MaximumAverageSubarrayI.java)
 - [[724] Find Pivot Index](./src/main/java/easy/PivotIndex.java)
 - [[876] Middle of the Linked List](./src/main/java/easy/MiddleOfTheLinkedList.java)
+- [[933] Number of Recent Calls](./src/main/java/easy/NumberOfRecentCalls.java)
 - [[1071] Greatest Common Divisor of Strings](./src/main/java/easy/GreatestCommonDivisorOfStrings.java)
 - [[1207] Unique Number of Occurrences](./src/main/java/easy/UniqueNumberOfOccurrences.java)
 - [[1431] Kids With The Greatest Number Of Candies](./src/main/java/easy/KidsWithTheGreatestNumberOfCandies.java)
