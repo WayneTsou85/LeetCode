@@ -31,3 +31,4 @@
 
 ### Medium
 - [[142] Linked List Cycle II](./src/main/java/medium/LinkedListCycleII.java)
+- [[189] Rotate Array](./src/main/java/medium/RotateArray.java)
